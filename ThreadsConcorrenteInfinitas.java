@@ -13,5 +13,7 @@ class ThreadsConcorrenteInfinitas {
     public static void main(String Args[]) {
         new Thread(new ImprimirThreadInfinitas("A")).start();
         new Thread(new ImprimirThreadInfinitas("B")).start();
+        new Thread(new ImprimirThreadInfinitas("c")).start();
+    
     }
 }
